@@ -1,0 +1,435 @@
+<mjml>
+  <mj-head>
+    <mj-title>MJML Newsletter#2</mj-title>
+    <mj-breakpoint width="600px" />
+    <mj-attributes>
+      <mj-section padding="0"/>
+			<mj-all font-family="Arial, sans-serif"/>
+    </mj-attributes>
+    
+    <mj-style>
+       a[x-apple-data-detectors] {
+color: inherit!important;
+text-decoration: none!important;
+font-size: inherit!important;
+font-family: inherit!important;
+font-weight: inherit!important;
+line-height: inherit!important;
+}
+      
+<!--[if (gte mso 9)|(IE)]>
+table {
+border-collapse: collapse;
+border-spacing: 0; }
+<![endif]-->
+    <!--[if gt mso 15]>
+     /* Outlook 2016 Height Fix */
+     table, tr, td {border-collapse: collapse;}
+     tr { font-size:0px; line-height:0px; border-collapse: collapse; }
+     <![endif]-->    
+      
+      @media only screen and (max-width: 600px) {
+      	body{
+      		width:100% !important; 
+      		min-width:100% !important;
+      	}
+				img{
+					max-width:100%;
+				}
+        ul{
+      	  padding: 0 15px !important;
+        }	
+        li {text-align:-webkit-match-parent; display:list-item;}
+      	.hide { 
+      		display: none !important;
+      	}
+      	.show { 
+      		max-height: none !important;  
+      		display: inline-table !important;  
+      		overflow : visible !important; 
+      		height: auto !important; 
+      	}
+      
+      	.resetAlignement{text-align: left !important; margin-left: 0 !important;margin-right: auto !important;}
+        .centerAlignement{text-align: center !important; margin-left: auto !important;margin-right: auto !important;}
+        .resetListAlignement{Margin-left: 30px !important;Margin-top: 15px !important;padding-right: 15px !important;}
+     
+      }
+
+    </mj-style>
+   
+  </mj-head>
+  <mj-body>
+    <mj-section 
+                padding="15px 0">
+    	<mj-column>
+      	<mj-text font-family="Arial" 
+                 font-size="10px"
+                 align="center" 
+                 padding="0">
+        	<a href="MIROIR">View online version</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section>
+      <mj-column>
+        <mj-image 
+                  src="https://via.placeholder.com/150x140.png?text=logo" 
+                  alt="logo"
+                  width="150px"
+                  height="auto"
+                  align="center"></mj-image>
+     
+         <mj-text font-size="10px" padding="0"> &nbsp; </mj-text>
+
+          <mj-image 
+                    src="https://via.placeholder.com/600x300.png?text=header"
+                    alt="Header"
+                    width="600px"
+                    height="auto"
+                    align="center"
+                    padding="0">
+          </mj-image>
+      </mj-column>
+    </mj-section>
+        
+    <mj-section>
+      <mj-column>
+              <mj-text font-size="10px" padding="0"> &nbsp; </mj-text>
+
+      	<mj-text font-family="Arial"
+                 font-size="14px"
+                 align="left"
+                 mj-class="resetAlignement"
+              	 line-height="16px">
+        	Mr XXXX,
+        </mj-text>
+        <mj-text font-family="Arial"
+                 font-size="14px"
+                 align="left"
+                 mj-class="resetAlignement"
+              	 line-height="16px"
+                 padding-top="0">
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis
+        </mj-text>
+      </mj-column>
+    </mj-section>
+        
+   
+				
+		<mj-section>
+				<mj-column>
+            <mj-text font-size="10px" padding="0"> &nbsp; </mj-text>
+						<mj-table padding-bottom="4px">
+              <tbody>
+              <tr>
+               <td width="25" height="25px" align="left" valign="middle"><img src="https://via.placeholder.com/23x25.png?text=i" alt="" width="23px" height="25px" vertical-align="middle" style="vertical-align:middle;font-size:1;"/></td>
+               <td align="left" height="25px" valign="middle">
+                 <span style="font-family:Arial;font-weight:bold;font-size:22px;line-height:22px;color:#2e2ca9">&nbsp;Title</span>
+               </td>
+                </tr>
+              </tbody>
+        </mj-table>
+						<mj-divider
+												width="100%"
+												border-color="#2e2ca9"
+												border-width="4px"
+												padding="0">
+						</mj-divider>
+						<mj-text font-family="Arial"
+                 font-weight="bold"
+                 font-size="16px"
+              	 line-height="18px"
+                 align="left"
+                 mj-class="resetAlignement"
+                 text-transform="uppercase"
+                 color="#2e2ca9"
+                 padding-top="20px">
+        	Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </mj-text>
+              <mj-text 	font-family="Arial"
+                       	font-size="13px"
+              	 				line-height="15px"
+                 				align="left"
+               					mj-class="resetAlignement"
+                 				padding-top="0">
+        	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+        </mj-text>
+       <mj-text font-family="Arial"
+                       	font-size="13px"
+              	 				line-height="15px"
+                 				align="left"
+               					mj-class="resetAlignement"
+                 				padding-top="0">
+        	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis
+        </mj-text>
+          <mj-text font-family="Arial"
+                       	font-size="13px"
+              	 				line-height="15px"
+                 				align="left"
+               					mj-class="resetAlignement"
+                 				padding-top="0">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis
+        </mj-text>
+        
+       
+        <mj-table padding-bottom="4px" padding-right="4px">
+              <tbody>
+              <tr>
+               <td width="30" height="25px" align="left" valign="middle"><img src="https://via.placeholder.com/23x25.png?text=i" alt="" width="29px" height="25px" vertical-align="middle" style="vertical-align:middle;font-size:1;"/></td>
+               <td align="left" height="25px" valign="middle">
+                 <span style="font-family:Arial;font-weight:bold;font-size:22px;line-height:22px;color:#2e2ca9">&nbsp;Title</span>
+               </td>
+                </tr>
+              </tbody>
+        </mj-table>
+						<mj-divider
+												width="100%"
+												border-color="#2e2ca9"
+												border-width="4px"
+												padding="0">
+						</mj-divider>
+					         <mj-text font-size="10px" padding="0"> &nbsp; </mj-text>
+				</mj-column>
+		</mj-section>
+    
+          
+    <mj-section background-color="#afb5b7">
+       <mj-column>
+        <mj-text font-size="10px" padding="0"> &nbsp; </mj-text>
+      	<mj-text font-family="Arial"
+                 font-weight="bold"
+                 font-size="13px"
+              	 line-height="1.15"
+                 color="#fff"
+                 align="left"
+                 mj-class="resetAlignement"
+                 text-transform="uppercase"
+                 padding-right="38px">TITLE
+        </mj-text>
+      </mj-column>
+    </mj-section>
+          
+     <mj-section background-color="#afb5b7">
+       <mj-column>
+      	<mj-text font-family="Arial"
+                 color="#fff"
+                 font-size="13px"
+                 align="left"
+                 mj-class="resetAlignement"
+              	 line-height="1.15"
+                 padding="8px 10px 25px 25px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis
+        </mj-text>
+      </mj-column>
+        <mj-column>
+      <mj-image  src="https://via.placeholder.com/230x160.png?text=img" 
+                    alt=""
+                    width="230px"
+                    height="160px"
+                    align="center"
+                padding="10px 0 30px">
+        </mj-image>
+      </mj-column>
+    </mj-section>      
+      
+          
+          
+   <mj-section>
+       <mj-column>
+          <mj-text font-size="10px" padding="0"> &nbsp; </mj-text>
+      	<mj-text font-family="Arial"
+                 font-weight="bold"
+                 font-size="13px"
+                 align="left"
+                 mj-class="resetAlignement"
+              	 line-height="15px"
+                 text-transform="uppercase"
+                 padding-right="38px">Title
+        </mj-text>
+      </mj-column>
+    </mj-section>
+          
+     <mj-section>
+       <mj-column>
+      	<mj-text font-family="Arial"
+                 font-size="13px"
+                 align="left"
+                 mj-class="resetAlignement"
+              	 line-height="15px"
+                 padding="8px 10px 25px 25px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis
+        </mj-text>
+      </mj-column>
+        <mj-column>
+      <mj-image  src="https://via.placeholder.com/230x160.png?text=img" 
+                    alt=""
+                    width="230px"
+                    height="160px"
+                    align="center"
+                padding="10px 0 30px">
+        </mj-image>
+      </mj-column>
+    </mj-section>   
+          
+          
+    <mj-section background-color="#afb5b7">
+       <mj-column background-color="#afb5b7">
+        <mj-text font-size="10px" padding="0"> &nbsp; </mj-text>
+      	<mj-text font-family="Arial"
+                 font-weight="bold"
+                 font-size="13px"
+              	 line-height="1.15"
+                 color="#fff"
+                 align="left"
+                 text-transform="uppercase"
+                 padding-right="38px">Title
+        </mj-text>
+      </mj-column>
+    </mj-section>
+       
+     <mj-section background-color="#afb5b7"> 
+       <mj-column background-color="#afb5b7">
+      	<mj-text font-family="Arial"
+                 color="#fff"
+                 font-size="13px"
+                 align="left"
+                 mj-class="resetAlignement"
+              	 line-height="15px"
+                 padding="8px 10px 25px 25px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis
+        </mj-text>
+      </mj-column>
+        <mj-column>
+      <mj-image src="https://via.placeholder.com/230x160.png?text=img" 
+                    alt=""
+                    width="230px"
+                    height="160px"
+                    align="center"
+                padding="10px 0 30px">
+        </mj-image>
+      </mj-column>
+    </mj-section>    
+          
+   <mj-section>
+     <mj-column>
+        <mj-text font-family="Arial"
+                 font-weight="bold"
+                 align="left"
+                 mj-class="resetAlignement"
+                 font-size="16px"
+                 line-height="18px"
+                 color="#2e2ca9"
+                 padding="25px 25px 30px">
+        Lorem ipsum dolor sit amet, consectetur adipiscins nostrud exercitation ullamco laboris nis
+        </mj-text>
+       <mj-table padding-bottom="4px">
+              <tbody>
+              <tr>
+               <td width="26" height="27px" align="left" valign="middle"><img src="https://via.placeholder.com/23x25.png?text=i" alt="" width="26px" height="27px" vertical-align="middle" style="vertical-align:middle;font-size:1;"/></td>
+               <td align="left" height="25px" valign="middle">
+                 <span style="font-family:Arial;font-weight:bold;font-size:22px;line-height:22px;color:#2e2ca9">&nbsp;Title</span>
+               </td>
+                </tr>
+              </tbody>
+        </mj-table>
+       
+      
+       <mj-divider width="100%"
+									border-color="#2e2ca9"
+									border-width="4px"
+									padding="0">
+				</mj-divider>
+					  <mj-text font-size="10px" padding="0"> &nbsp; </mj-text>
+     </mj-column>   
+  </mj-section>       
+          
+          
+     <mj-section>
+       <mj-column>
+      <mj-image src="https://via.placeholder.com/250x160.png?text=img" 
+                    alt=""
+                    width="250px"
+                    height="160px"
+                    align="center"
+                  	padding="10px 0">
+        </mj-image>
+      </mj-column>
+       <mj-column>
+      	<mj-text font-family="Arial"
+                 font-size="13px"
+                 align="left"
+              	 line-height="15px"
+                 padding-right="15px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non gravida sem. Maecenas vitae erat et felis hendrerit ornare non sit amet eros. Nulla ornare nibh ut lectus lobortis.<br><br><b>Duis at magna felis.</b> In hac habitasse platea dictumst. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </mj-text>
+          <mj-button padding="0" background-color="transparent" href="#" align="left" color="#2e2ca9" font-family="Arial" font-weight="bold" font-size="13px">Watch the video ></mj-button>
+      </mj-column>
+    </mj-section>         
+          
+   <mj-section>
+   <mj-column>
+       <mj-table padding-bottom="4px">
+              <tbody>
+              <tr>
+               <td width="29" height="25px" align="left" valign="middle"><img src="https://via.placeholder.com/23x25.png?text=i" alt="" width="29px" height="25px" vertical-align="middle" style="vertical-align:middle;font-size:1;"/></td>
+               <td align="left" height="25px" valign="middle">
+                 <span style="font-family:Arial;font-weight:bold;font-size:22px;line-height:22px;color:#2e2ca9">&nbsp;Title</span>
+               </td>
+                </tr>
+              </tbody>
+        </mj-table>
+						<mj-divider
+												width="100%"
+												border-color="#2e2ca9"
+												border-width="4px"
+												padding="0">
+						</mj-divider>
+					<mj-text font-size="10px" padding="0"> &nbsp; </mj-text>     
+          
+           <mj-text font-family="Arial"
+                 font-weight="bold"
+                 font-size="21px"
+                 align="center"
+                 color="#2e2ca9"
+                 padding-bottom="0">Mr XXX
+        </mj-text>
+         <mj-button padding="0" inner-padding="0" background-color="transparent" href="tel:+33#" align="center" color="#2e2ca9" font-family="Arial"
+                 font-weight="bold" font-size="21px">00 00 00 00 00<sup><small>*</small></sup></mj-button>
+           <mj-text font-size="10px" padding="0"> &nbsp; </mj-text>     
+					<mj-button padding="0" background-color="transparent" href="#" align="center">
+      			<img src="https://via.placeholder.com/250x50.png?text=cta" width="250px" height="50px" style="display:block;width:250px;height:50px;" alt="CTA"/>
+    		</mj-button>
+     </mj-column>
+   </mj-section>
+          
+     
+     
+		<mj-section padding-bottom="50px">
+		  <mj-column>
+          <mj-text font-size="20px" padding="0"> &nbsp; </mj-text>
+					<mj-text font-family="Arial"
+									 font-size="10px"
+                   line-height="1.15"
+									 padding-bottom="5px">
+					  *Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis 
+          </mj-text>
+       
+					<mj-text font-family="Arial"
+									 font-size="10px"
+                   line-height="1.15"
+                   padding-top="0"
+									 padding-bottom="5px">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis
+          </mj-text>
+             <mj-text  font-family="Arial"
+                 font-weight="bold"
+								 font-size="10px"
+                 line-height="1.15"
+								 padding-bottom="5px">
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis<a href="DESABO" style="color:#000">click here</a>
+					</mj-text>
+            
+			</mj-column>				
+		</mj-section>
+     
+     
+  </mj-body>
+</mjml>
